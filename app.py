@@ -5,7 +5,7 @@ import sqlite3
 import google.generativeai as genai
 from modtest import predict
 
-genai.configure(api_key="AIzaSyD58EM2Qtnf9S5E9a0DJAMnDy5AGat4rWc")
+genai.configure(api_key="your_gemini_api")
 
 def get_gemini_response(question,prompt):
     model=genai.GenerativeModel('gemini-pro')
